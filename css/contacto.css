@@ -1,0 +1,78 @@
+/* 
+    Document   : contacto
+    Created on : 20-ene-2013, 18:43:07
+    Author     : jbgae
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+input{
+    margin-bottom: 1%;
+}
+
+#parteIzquierda{
+    min-height:570px;
+    float:left;
+    margin-left:2%;
+
+}
+
+form{
+    margin-top:2%;
+}
+
+.botones{
+    margin-top:2%;
+}
+
+#comentario{
+    width:90%;
+}
+
+h2{
+    padding-top: 1%;
+}
+
+
+p{
+    color:red;
+    float:left;
+    width:90%;
+    margin: 0px;
+}
+
+#parteDerecha{
+    width:48%;
+    float:right;
+    margin-left:2%;
+    margin-bottom: 1%;
+}
+
+#mensaje{
+    margin-left:2%;
+    padding-top:2%;
+    padding-bottom:2%;
+}
+
+p a{
+    margin-left:2%;
+    margin-bottom: 2%;
+}
+
+iframe{
+    width: 95%; 
+    height: 600px;
+}
+
+.alert{
+    margin-top:8px;
+}
+
+
+
+
+
+
+
+

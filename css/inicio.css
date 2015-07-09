@@ -1,0 +1,70 @@
+/* 
+    Document   : inicio
+    Created on : 12-oct-2013, 3:25:15
+    Author     : javi
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+section{
+    margin-top:10px;
+}
+
+div.navbar.navbar-static-top.navbar-inverse>div.navbar-inner{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.carousel img {
+    display:block;
+    margin:auto;
+}
+
+div.row-fluid>div.span3{
+    margin:0px;
+    padding:10px;
+}
+
+li.span2>div.thumbnail, 
+li.span3>div.thumbnail, 
+li.span4>div.thumbnail, 
+li.span5>div.thumbnail, 
+li.span6>div.thumbnail,
+li.span7>div.thumbnail,
+li.span8>div.thumbnail{
+    background-color: #fff;
+}
+
+#local{
+    max-height: 300px;
+    width:100%;
+    
+}
+
+.certificado{
+    max-height:270px;
+    width:100%; 
+}
+
+#obra{
+    margin-left:0px;
+    margin-top:5px;
+}
+
+#eficiencia{
+    margin-top:5px;
+}
+
+.llave{
+    max-height:290px;
+    width:100%;
+}
+
+.margen{
+    margin-top: 5px;
+}
+

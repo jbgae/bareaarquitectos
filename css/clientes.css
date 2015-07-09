@@ -1,0 +1,22 @@
+/* 
+    Document   : clientes
+    Created on : 14-oct-2013, 23:56:53
+    Author     : javi
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+
+.text > ul > li{
+    margin: 0.5%;
+}
+
+

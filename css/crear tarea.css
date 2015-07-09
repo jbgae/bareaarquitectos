@@ -1,0 +1,24 @@
+/* 
+    Document   : crear tarea
+    Created on : 13-jun-2013, 23:07:13
+    Author     : jbgae
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+div.jqte{
+    max-height: 120px;
+}
+
+div.span10>form.form-horizontal>div.control-group{
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+
+form>div.jqte>div.jqte_editor{
+    min-height:75px;    
+}

@@ -1,0 +1,10 @@
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+IndexIgnore *
+
+AuthType Basic
+AuthName "Solamente usuarios autorizados"
+AuthUserFile /opt/lampp/htdocs/bareaarquitectos/.htpasswd
+require valid-user

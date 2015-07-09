@@ -1,0 +1,22 @@
+/* 
+    Document   : copia
+    Created on : 02-dic-2013, 19:09:12
+    Author     : jbgae
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+#cargando{
+    display:block;
+    margin: auto;
+}
+

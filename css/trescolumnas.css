@@ -1,0 +1,45 @@
+/* 
+    Document   : rehabilitacion
+ .span7{
+    margin-top:1%;
+}   Created on : 12-oct-2013, 18:42:11
+    Author     : javi
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#bloque1{
+    padding: 5px;
+    margin-bottom:  2%;
+    background-color: #eee;
+    max-height:450px;
+    overflow: auto;
+    border:1px solid #ccc;
+}
+
+#bloque1 > p{
+    margin-right:5px;
+}
+
+#bloque2{
+    max-height:450px;
+    overflow: auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+
+
+#bloque2 > div > ul > li{
+    list-style-position:inside;
+    list-style: disc;
+}
+
+.contenidoBloque, #bloque2 > div {
+    padding:5px 10px;
+}
+

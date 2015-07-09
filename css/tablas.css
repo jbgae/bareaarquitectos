@@ -1,0 +1,56 @@
+/* 
+    Document   : empleados
+    Created on : 11-mar-2013, 13:29:12
+    Author     : jbgae
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+form{
+    margin-bottom:10px;
+}
+
+#borrar{
+    margin-top: 22px;
+    margin-bottom: 5px;
+}
+
+.cantidad{
+    float:left;
+    margin-top: 22px;
+    margin-right:5px;
+}
+
+input.btn.btn-info{
+    margin-top:-12px;
+}
+
+table.table-striped.table-condensed.cf>tbody>tr>td,
+table.table-striped.table-condensed.cf>thead.cf>tr>th{
+    text-align:left;
+}
+
+address{
+    text-align:left;
+}
+
+div.container-fluid>div.row-fluid>div.alert.alert-error{
+    margin-top:10px;
+}
+
+#solicitud{
+    margin:20px 0px 0px 0px;
+}
+
+#solicitud > div{
+    font-weight:bold;
+}
+
+#lista{
+    list-style: none;
+    font-weight: normal;
+}

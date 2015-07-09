@@ -1,0 +1,62 @@
+/* 
+    Document   : presupuesto
+    Created on : 25-oct-2013, 11:15:13
+    Author     : jbgae
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+root { 
+    display: block;
+}
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.margen{
+    margin-bottom: 5px;
+    float:left;
+    margin-left:0px;
+}
+
+div.jqte{
+    height:270px;
+}
+
+#extender{
+    margin-top:25px;
+}
+.control-label.span3, .control-label.span8{
+    font-weight: bold;
+}
+
+/*
+input{
+    width:100%;
+}
+
+label.error {
+    font-weight: bold;
+    color: red;
+    padding: 2px 8px;
+    margin-top: 2px;
+    display: block;
+}
+
+label.valid {
+    width: 24px;
+    height: 24px;
+    background: url(../images/tick-circle.png) center no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+}
+
+
+
+
+span>a{
+    margin-left:30px;
+}*/

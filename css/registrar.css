@@ -1,0 +1,63 @@
+/* 
+    Document   : registrar
+    Created on : 15-oct-2013, 15:38:08
+    Author     : javi
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.form-horizontal{
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+
+.form-horizontal .control-label{
+    text-align:left;
+}
+
+.form-horizontal>div.control-group, div.well.pull-left.span6>div.control-group,
+form#proyectoForm.form-horizontal>div.span5.pull-left>div{
+    margin-bottom:5px;    
+}
+
+.alert{
+    margin-top:5px;
+}
+
+.well{
+    margin-top:10px;
+}
+
+label.error {
+    font-weight: bold;
+    color: red;
+    padding: 2px 8px;
+    margin-top: 2px;
+    display: inline-block;
+}
+
+img.hidden-phone{
+    float:right;
+    margin-top: -620px;
+}
+
+#remove{
+    float:right;
+    margin-right:10%;
+    margin-top:10px;
+}
+
+#add{
+    float:left;
+    margin-top:10px;
+}
+
+#boton_presupuesto{
+    margin-top: 20px;
+}

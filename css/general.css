@@ -1,0 +1,360 @@
+/* 
+    Document   : general
+    Created on : 11-oct-2013, 18:58:50
+    Author     : javi
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+*{
+    font-family: 'Lato', 'sans-serif';
+}
+
+html{ 
+    overflow: auto; 
+}
+
+body{
+    margin:0%;
+    background-image:url('../images/content.png');
+}
+
+html, body{ 
+    height: 100%; 
+}
+
+#wrapper{ 
+    overflow: hidden; 
+    height: auto; 
+    min-height: 100%;
+    width:100%;
+    margin:0px;
+}
+
+.content{
+    margin: 0px 0 80px 0;
+}
+
+a, a:visited{
+    color: #2E8649;
+}
+
+a:hover, a:focus{
+    color:#000;
+}
+
+.span7{
+    margin-top:1%;
+}
+
+/*HEADER*/
+header{
+    min-height:90px;
+}
+
+
+header > .container{
+    padding-top:1%;
+    padding-bottom:1%;
+}
+
+/*LOGOTIPO Y NOMBRE EMPRESA*/
+#logo{
+    float:left;
+    margin-right:0.5%;
+}
+
+#cabecera{
+    float:left;
+    margin-top:3%;
+}
+
+#cab1{
+    font-size:3em;
+    padding-top: 1.5%;
+    margin-bottom: 2%;
+    font-weight: bold;
+    letter-spacing: 1.7px;
+    
+}
+
+#cab1 span{
+    color:#2E8649;
+}
+
+#cab2{
+    font-size:0.9em;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    letter-spacing: 0.5px;
+}
+
+/*MENU SUPERIOR PARTE DERECHA*/
+.menuDerecha{    
+    float:right;
+    margin-top:1.5%;
+    margin-right:2%;
+    text-align:right;
+    font-size:0.9em;
+}
+
+.menuDerecha a{
+    width: 100%;
+    color: #2E8649;
+}
+
+/*NAVBAR*/
+
+.navbar-inner{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.navbar-wrapper > .container{
+    margin-bottom: 0px;
+}
+
+#buscar{
+    color: #777777;
+    margin-right: 15px;
+}
+
+/*SECTION*/
+
+section{
+    margin-top:2%;
+}
+
+section > .container{
+    padding-top:1%;
+    padding-bottom:1%;
+}
+
+.rojo{
+    color:#E13300;
+}
+
+/*TEXTO*/
+.text{
+    text-align:justify;
+}
+
+
+
+/*FORMULARIOS*/
+label.valid {
+    width: 24px;
+    height: 24px;
+    background: url(../images/tick-circle.png) center no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+}
+
+label.error {
+    font-weight: bold;
+    color: red;
+    padding: 2px 8px;
+    margin-top: 2px;
+}
+
+/*SIDEBAR*/
+div.span3>div.well.sidebar-nav{
+    background-color:#fff;
+    border: none;
+    padding:0px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #ddd;
+}
+
+div.well.sidebar-nav>ul.nav.nav-list>li.active>a{
+    background-color:#2E8649;
+    color:#fff;
+}
+
+div.well.sidebar-nav>ul.nav.nav-list>li>a{
+    color:#000;
+}
+
+
+/*FOOTER*/
+footer{
+    margin-bottom: 0px;
+    height: 80px;
+    margin-top: -80px;
+}
+
+footer >div.container>p.pull-right> a:hover, footer > div.container> p.pull-right > a:visited{
+    color:#fff;
+    text-decoration:none;
+}
+
+footer{
+    background-color: #111111;
+    padding:10px 0px;
+}
+
+footer>div.container-fluid.container>div.row-fluid>div.span6>ul>li{
+    list-style: none;
+    color:#ddd;
+}
+
+.texto_pie{
+    color:#ddd;
+}
+
+footer > .container > p{
+    padding:1% 2% 0% 2%;    
+}
+
+
+a#email, a#email:visited{
+    color:#ffff8f;
+}
+
+#face{
+    background-image: url('../images/facebook1.png'); 
+    width:35px;
+    height:35px;
+}
+
+#facebook :hover{
+    background-image: url('../images/facebook2.png'); 
+    width:35px;
+    height:35px;
+}
+
+div.span6>ul>li>a:hover{
+    color:#fff;
+    text-decoration:none;
+}
+
+#carro{
+    float:right;
+}
+
+.negro, .verde{
+    font-weight:bold;
+}
+
+.verde{
+    color:#2E8649;
+}
+
+@media(max-width: 980px) {
+     #cab1{
+       font-size:2.7em;
+       margin-top:9px;
+    }
+
+    #cab2{
+        font-size:0.8em;
+        letter-spacing:0.2px;
+        margin-bottom:30px;
+    }
+
+    .menuDerecha{
+        margin-top:30px;
+    }
+    footer {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 130px;
+    }
+}
+
+@media(max-width: 800px) {
+    
+    #cab1{
+       font-size:2.6em;
+       margin-top:9px;
+    }
+
+    #cab2{
+        font-size:0.8em;
+        letter-spacing:0.2px;
+        margin-bottom:30px;
+    }
+    .menuDerecha{
+        margin-top:30px;
+        font-size:0.8em;
+    }
+    
+}
+
+@media(max-width: 767px) {
+    
+    footer {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 130px;
+    }
+}
+
+@media(max-width: 480px) {
+
+    
+    
+     #cab1{
+        font-size:2em;
+        padding-top: 2%;
+        margin-bottom: 2%;
+        font-weight: bold;
+        letter-spacing: 1.1px;
+
+    }
+
+    #cab2{
+        font-size:0.7em;
+        padding-top: 0%;
+        margin-bottom:10px;
+        letter-spacing: 0.1px;
+    }
+    
+    .menuDerecha{
+        font-size:0.8em;
+        margin-top:20px;
+    }
+}
+
+@media(max-width: 320px) {
+    /*LOGOTIPO Y NOMBRE EMPRESA*/
+    #logo{
+        float:left;
+        margin-right:0%;
+        width: 90px;
+    }
+
+
+
+    #cab1{
+        font-size:2em;
+        padding-top: 2%;
+        margin-bottom: 2%;
+        font-weight: bold;
+        letter-spacing: 1.1px;
+
+    }
+
+    #cab2{
+        font-size:0.7em;
+        padding-top: 0%;
+        margin-bottom:10px;
+        letter-spacing: 0.1px;
+    }
+    
+    .menuDerecha{
+        font-size:0.8em;
+    }
+}

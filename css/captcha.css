@@ -1,0 +1,16 @@
+/* 
+    Document   : captcha
+    Created on : 15-oct-2013, 12:08:34
+    Author     : javi
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#captchaForm{
+    margin-top: 1%;
+}
+

@@ -1,0 +1,36 @@
+/* 
+    Document   : datos_personales
+    Created on : 25-feb-2013, 10:26:30
+    Author     : jbgae
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.datosUsuario{
+    float:left;
+    margin-left:10%;
+    font-size: 14px;
+    width:50%;
+    margin-bottom: 2%;
+}
+
+#columIzquierda{
+    float:left;
+    margin-right:10%;
+}
+
+#columDerecha{
+    float:left;
+}
+
+.datosUsuario li{
+    list-style: none;
+    padding: 2%;
+}
+
+.titulo{
+    font-weight: bold;
+}
+
+
+

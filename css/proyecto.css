@@ -1,0 +1,57 @@
+/* 
+    Document   : informacion
+    Created on : 02-ago-2013, 16:09:30
+    Author     : Javier
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+div>dl.dl-horizontal{
+    margin:0px;
+    padding:0px;
+}
+
+.dl-horizontal{
+    margin:0px;
+    padding:0px;
+}
+
+.informe{
+   margin-top:5%;
+   margin-bottom:5%;
+}
+
+div.row-fluid>div.span9>h6{
+    margin-top:15px;
+    margin-bottom:0px;
+}
+
+div.span9>div>dl.dl-horizontal>dt>img{
+    max-width:100px;
+    max-height:50px;
+}
+
+
+.cerrado{
+    color: #ee5f5b;
+    font-weight: bold;
+}
+
+.abierto{
+    color: #62c462;
+    font-weight: bold;
+}
+
+#ocultar{
+    display:none;
+}
+
+
+.jqte{
+    height:200px;
+    margin-bottom: 20px;
+}

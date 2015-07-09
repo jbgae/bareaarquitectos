@@ -1,0 +1,125 @@
+/* 
+    Document   : novedades
+    Created on : 11-abr-2013, 20:28:03
+    Author     : jbgae
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+li{
+    list-style: none;
+}
+
+div.span3.sidebar>table.table.table-condensed{
+    margin-top:5%;
+    margin-bottom:0px;
+}
+
+table.table.table-condensed>tbody>tr>th{
+    text-align:center;
+}
+
+.indice{
+    margin-right: 1em;
+    float: left;
+    width: auto;
+    min-height: 50px;
+}
+
+.indice > .fecha, .fecha{
+    color: #666;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    margin-bottom: 0px;   
+}
+
+td>.fecha{
+    font-size:1.1em;
+    padding:2px 5px;
+    float:left;
+}
+
+.descripcion{
+    font-size: 1em;
+}
+
+.descripcion > span{
+    font-size: 0.8em;
+    padding-left:2%;
+}
+
+ul>ul>li>div>a{
+    font-size: 0.9em;
+
+}
+
+#noticias{
+    width:50%;
+    float:right;
+}
+
+
+
+.panelCitas>td>span{
+    font-size: 1.2em;
+    margin-left:2%;
+}
+
+
+.enlace{
+    font-size: 0.9em;
+    float:right;
+}
+
+span.aviso{
+    color: #ffffff; 
+    font-size:0.9em;
+    padding-top: 3px;
+    padding-right: 9px;
+    padding-bottom: 2px;
+    padding-left: 9px;
+    background-color: #ee5f5b;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;   
+}
+
+span.aviso.success{
+    background-color:#62c462;
+}
+
+span.aviso.warning{
+    background-color:#f89406;
+}
+
+span.aviso.danger{
+    background-color:#ee5f5b;
+}
+
+
+
+div.row-fluid>div.span8.main-content>ul>ul>li{
+    list-style:none;
+    padding-bottom:0px;
+    padding-top:15px;
+    border-top: 1px solid #ccc;
+}
+
+div.span8.main-content>ul>ul{
+    border-bottom: 1px solid #ccc;
+}
+
+div.alert.alert-error{
+    margin:5px 0px;
+}
+
+#citas{
+    margin-top:5%;
+}
+
+
+

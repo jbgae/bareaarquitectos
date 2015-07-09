@@ -1,0 +1,18 @@
+/* 
+    Document   : empleados-proyecto
+    Created on : 30-may-2013, 19:16:14
+    Author     : jbgae
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+div.container-fluid>div.row-fluid>div.span9>form>a#add{
+    margin:0px;
+}
+#add{
+     margin-left:0%;
+}

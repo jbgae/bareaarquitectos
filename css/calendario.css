@@ -1,0 +1,274 @@
+/* 
+    Document   : calendario
+    Created on : 09-abr-2013, 19:29:46
+    Author     : jbgae
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+span.text-info{
+    color: #000; 
+}
+
+table.table.table-condensed.table-bordered{
+    margin-top:2%;
+}
+
+table.table.table-condensed.table-bordered>
+tbody>
+tr>.prev{
+    background-color:#fff;
+}
+
+table.table.table-condensed.table-bordered>
+tbody>
+tr>.post{
+    border: 0px;
+    text-align: right;
+    background-color:#fff;
+}
+
+table.table.table-condensed.table-bordered>
+tbody>
+tr>.cabecera{
+    border:0px;
+    text-align:center;
+    background-color:#fff;
+}
+
+div.container-fluid> div.row-fluid>div>
+table.table.table-condensed.table-bordered>
+tbody>tr>td{
+    width: 90px;
+    height:90px;
+}
+
+div.container-fluid> div.row-fluid> div>
+table.table.table-condensed.table-bordered>
+tbody> tr> td.days_week{
+     background-color: #f9f9f9;
+     text-align:center;
+     height:10px;
+     color: #777777;
+}
+
+.event{
+    text-align:center;
+    font-size:0.8em;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+
+table.table.table-condensed.table-bordered>
+tbody>
+tr>
+td>
+div.days{
+    font-size: 0.8em;
+    color: #777777;
+}
+
+#today{
+    color: blue;
+    background-color: #ddd;
+    margin-bottom:5px;
+    font-weight:bolder;
+}
+
+.event>li{
+   list-style: none;
+   border-bottom:1px solid #ccc;
+}
+
+tbody>tr>td{
+   list-style: none;    
+}
+
+div.event a.tooltip{
+    color: red;
+}
+
+div>li{
+    list-style: none;
+}
+
+.leyenda{
+    margin-top:20px;
+}
+
+.izq{
+    float:left;
+    margin-right:2%;
+    margin-bottom:1%;
+}
+
+.cuadradoVerde{
+    height: 15px;
+    width:15px;
+    background-color: #62c462;
+    margin-right: 5px;
+    alignment-adjust: auto;
+}
+.cuadradoRojo{
+    height: 15px;
+    width:15px;
+    background-color: #ee5f5b;
+    margin-right: 5px;
+    alignment-adjust: auto;
+}
+.cuadradoAzul{
+    height: 15px;
+    width:15px;
+    background-color: #0088cc;
+    margin-right: 5px;
+    alignment-adjust: auto;
+}
+.cuadradoAmarillo{
+    height: 15px;
+    width:15px;
+    background-color: #ff9522;
+    margin-right: 5px;
+    alignment-adjust: auto;
+}
+
+span.text-info.inicio{
+    text-transform:capitalize;
+    font-size:1em;
+    padding-top: 3px;
+    padding-right: 9px;
+    padding-bottom: 2px;
+    padding-left: 9px;
+    background-color:#62c462;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;  
+    border-bottom-left-radius: 9px;  
+    color:#fff;
+}
+
+span.text-info.tareaInicio{
+    text-transform:capitalize;
+    color: #ffffff; 
+    font-size:1em;
+    padding-top: 3px;
+    padding-right: 9px;
+    padding-bottom: 2px;
+    padding-left: 9px;
+    background-color:#0088cc;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;  
+    border-bottom-left-radius: 9px;  
+    color:#fff;
+}
+
+span.text-info.fin{
+    text-transform:capitalize;
+    color: #ffffff; 
+    font-size:1em;
+    padding-top: 3px;
+    padding-right: 9px;
+    padding-bottom: 2px;
+    padding-left: 9px;
+    background-color: #ee5f5b;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;  
+    border-bottom-left-radius: 9px;  
+    color:#fff;
+}
+
+span.text-info.tareaFin{
+    text-transform:capitalize;
+    color: #ffffff; 
+    font-size:1em;
+    padding-top: 3px;
+    padding-right: 9px;
+    padding-bottom: 2px;
+    padding-left: 9px;
+    background-color: #ff9522;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;  
+    border-bottom-left-radius: 9px;  
+    color:#fff;
+}
+
+#form{
+    margin-top:2%;
+}
+
+.btn-group{
+    margin-right:3%;
+}
+
+div#myModal>form>div>div>div>label.control-label{
+    float:left;
+    margin-right:2%;
+}  
+
+div.modal-body>div>div{
+    margin:2%;
+}
+
+textarea{
+    height: 100px;
+}
+
+.cita{
+    padding:5px;
+    background-color: #ddd;
+    margin-bottom:10px;
+}
+
+.descripcion{
+    padding:5px;
+    background-color: #eee;
+    margin-bottom:15px;
+}
+
+.cita > h5{
+    margin-top:0px;
+}
+
+.cita > h5 > span{
+    font-weight: normal;
+    float:right;
+    font-style:oblique;
+}
+
+div.container-fluid>div.span9.offset2>div.fecha{
+  color: #f89406;
+  font-size: 1.5em;
+  line-height: 1.2em;
+  margin-bottom: 0px;
+}
+
+div.span5.inicioProyecto{
+    padding: 5px;
+    margin-bottom:15px;
+    background-color: #62c462;
+}
+
+div.span5.finProyecto{
+    padding: 5px;
+    margin-bottom:15px;
+    background-color: #ee5f5b;
+}
+
+div.span5.inicioTarea{
+    padding: 5px;
+    margin-bottom:15px;
+    background-color: #0088cc;
+}
+
+div.span5.finTarea{
+    padding: 5px;
+    margin-bottom:15px;
+    background-color: #ff9522;
+}
+

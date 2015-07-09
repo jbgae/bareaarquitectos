@@ -1,0 +1,94 @@
+/* 
+    Document   : archivos
+    Created on : 23-may-2013, 19:23:48
+    Author     : jbgae
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+a > h5{
+    color:#333;
+    margin-top: 0px;
+}
+
+div.row-fluid>div.span11>ul{
+    list-style: none;
+    margin-top: 15px;
+}
+
+.archivo > img{
+    float:left;
+    margin-right:5px;
+    margin-top:-5px;
+}
+
+.archivo>h5{
+    margin-top:0px;
+}
+
+.info{
+    margin-left:40px;
+}
+
+.info > h5{
+    margin-bottom: 0px;
+}
+
+.info > button, ul>li>div>div>a.btn.btn-info.btn-small, ul>li>div>div>a.btn.btn-danger.btn-small{
+    float:right;
+    margin-right:2px;
+    margin-top:1.5%;
+}
+
+input.btn.btn-info{
+    margin-top:0px;
+}
+
+#todo{
+    margin:0px;
+}
+
+tbody>tr>td>.botones>a.btn.btn-info.btn-small{
+    margin-top:0%;
+}
+
+#zip{
+    margin-top:0px;
+}
+
+#carpeta{
+    margin-top:5px;
+}
+
+#subir{
+    margin-top:0px;
+    padding: 5px 8px;
+}
+
+#carpeta{
+    margin-bottom: 5px;
+}
+
+div.row-fluid > div.span11 > ul.breadcrumb > li{
+    border-style: none;
+}
+
+.breadcrumb{
+    background-color: #ffffff;
+    padding:0px;
+}
+
+div.container-fluid>div.row-fluid>div.tabbable.span10{
+    height: 45px;
+}
+
+div.btn-toolbar{
+    margin-bottom:20px;
+}
+
+table.table.table-striped tr .botones { display:none;}
+table.table.table-striped tr:hover td .botones{ display:inline-block;}

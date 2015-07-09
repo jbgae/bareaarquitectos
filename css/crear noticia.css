@@ -1,0 +1,20 @@
+/* 
+    Document   : crear noticia
+    Created on : 07-abr-2013, 13:13:25
+    Author     : jbgae
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+form{
+    margin-top:3%;
+}
+
+
+div.alert.alert-error{
+    margin-top:1%;
+}

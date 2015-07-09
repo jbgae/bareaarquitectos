@@ -1,0 +1,64 @@
+/* 
+    Document   : clientes
+    Created on : 14-oct-2013, 23:56:53
+    Author     : javi
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#chat_vista{
+    height: 400px;
+    border: 1px solid #ccc;
+    margin-bottom: 1%;
+    overflow: auto;
+    padding: 10px;
+}
+
+.usuario_actual{
+    color: #e9561b;
+}
+
+li{
+    list-style: none;
+}
+
+.encabezado{
+    font-size: 0.85em;
+    color: #777;
+    letter-spacing: 0.8px;
+}
+
+.contenido{
+    font-size: 1.2em;
+    margin-bottom:15px;
+}
+
+li > img{
+    float:left;
+    height:50px;
+    margin-right:10px;
+}
+ 
+.online{
+    width:10px;
+    height:10px;
+    float:left;
+    margin-right:5px;
+    margin-top:5px;
+}
+
+.ausente{
+    width:10px;
+    height:10px;
+    float:left;
+    margin-right:5px;
+    margin-top:5px;
+}
+
+div#chat_vista>ul>li{
+    margin-top:2px;
+}

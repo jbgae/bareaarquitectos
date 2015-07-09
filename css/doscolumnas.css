@@ -1,0 +1,27 @@
+/* 
+    Document   : doscolumnas
+    Created on : 12-nov-2013, 0:06:36
+    Author     : jbgae
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+div.span9.bloque.text{
+    background-color:#fff;
+    border:1px solid #ccc;
+    padding-top:10px;
+    padding-right:20px;
+}
+
+li{
+    list-style: none;
+}

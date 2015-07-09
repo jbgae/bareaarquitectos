@@ -1,0 +1,83 @@
+/* 
+    Document   : proyectos
+    Created on : 18-may-2013, 13:00:57
+    Author     : jbgae
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+div.progress{     
+    text-align: center; 
+    color: #333; 
+    height: 1.5em; 
+    line-height: 1.5em;            
+}
+
+#select1, #select2 {  
+   width: 200px;  
+   height:200px;
+   margin-right: 10px;
+}  
+
+#add{
+     margin-left:23.5%;
+}
+
+#remove{
+    margin-left:150px;
+}
+
+.btn.btn-info{
+    margin-top: 10px;
+}
+
+legend{
+    margin-top:10px;
+}
+div.container-fluid{
+    margin:0px;
+}
+
+div.container-fluid>div.row-fluid>div.tabbable>ul.nav.nav-tabs{ 
+    border:none;
+}
+
+div.container-fluid>div.row-fluid>div.tabbable>ul.nav.nav-tabs>li>a{
+    margin-bottom:15px;
+    margin-right:5%;
+    border-color: #cccccc;
+    border-radius: 2px;
+    color: #111111;
+    background: #e6e6e6;
+    text-shadow: 1px 1px 0px #fff;
+    
+}
+
+div.container-fluid>div.row-fluid>div.tabbable>ul.nav.nav-tabs>li>a:hover{
+    border: solid 1px #b6b6c1;
+}
+
+div.container-fluid>div.row-fluid>div.tabbable>ul.nav.nav-tabs>li.active>a{
+    text-shadow: 1px 1px 0px #515151;
+    color: #fff;   
+    border: 1px solid #818181;
+    background:  #77ad3a;
+}
+
+div.span9>form>input.btn.btn-info{
+    margin-left:0px;
+    margin-top:5px;
+}
+
+div.row-fluid>div.alert.alert-error{
+    margin-top: 10px;
+}
+
+div.progress{
+    margin-top:20px;
+}
+

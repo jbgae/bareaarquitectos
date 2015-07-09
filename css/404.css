@@ -1,0 +1,25 @@
+/* 
+    Document   : 404
+    Created on : 10-feb-2014, 20:30:24
+    Author     : jbgae
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+.container > h4{
+    margin-top:50px;
+}
+
+.alert{
+    margin-left:-20px;
+}
+
